@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Portfolio</title>
+    <!-- // <script type='text/javascript' src='https://raw.githubusercontent.com/LeaVerou/prefixfree/gh-pages/prefixfree.min.js'></script> -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js'></script>
+    <script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-route.min.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-resource.min.js"></script>
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="app.js"> </script>
+	<script type="text/javascript" src="script.js"> </script>
+</head>
+
+<body ng-app="portfolio" ng-controller="mainController">
+<div class="wrap col-9">
+		<div class="menu col-9">
+			<header><h1>Alexandra's Portfolio</h1></header>
+			<nav>
+				<ul>
+					<li class="active"><a href="https://github.com/alexandrag2254" target="_blank">Github</a></li>
+					<li><a href="mailto:alexandragroetsema@gmail.com">Email Me</a></li>
+<!-- 					<li data-type="fashion"><a href="#">Hire.</a></li>
+					<li data-type="architecture"><a href="#"></a></li> -->
+				</ul>
+			</nav>
+		</div>
+
+		<h3 style="margin-top:15%; text-align:center; font-size:25px;font-family: 'Open Sans Condensed', sans-serif;"><em>“Education is the kindling of a flame, not the filling of a vessel.” ― Socrates</em></h3>
+
+		<p style="font-size:20px; text-align:center;font-family: 'Open Sans Condensed', sans-serif;">Motivated Engineer equipped with technical skills in three full stacks and quality-driven mindset necessary to take projects from concept to implementation. Detailed-oriented, committed to high performance and thrives in a fast-paced environment. Exceptional communicator known for being a dedicated team player. Experienced in wire framing, design, development, testing and deployment with the ability to embrace new technologies. Passionate about creating elegant projects that customers want to use and engineers are proud to build.</p>
+
+		<hr>
+
+		<h1 align="center" style="margin-bottom:0px">Featured Projects</h1>
+
+		<div class="portfolio col-9">
+
+			<a href="https://github.com/alexandrag2254/BlackJack" target="_blank">
+				<figure class="img-wrap col-3">
+					<h2>BlackJack</h2>
+
+					<img src="img/blackjack.png" ng-click="Blackjack()" height="320" width="360">
+					<div class="description">Mobile application for iOS users to play blackjack completely hands-free with voice recognition. Technologies Used: Swift iOS, Wit.ai API, HTML5, CSS3</div>
+				</figure></a>
+				
+
+			<a href="http://52.24.165.228/#/" target="_blank"><figure class="img-wrap col-3">
+				<h2>Hire.</h2>
+				<img src="img/hire.jpg" target="_blank" alt="hire" height="320" width="360">
+				<div class="description">Allows users to discover and connect with other skilled users. Designed for ideal user experience. Technologies Used: Javascript, Angular.js, Node.js, Express, JS Calendar Library, Bootstrap, HTML5, CSS3</div>
+			</figure></a>
+		
+			
+
+			<a href="http://blockchainu.co/wp" target="_blank"><figure class="img-wrap col-3">
+				<h2>Blockchain University</h2>
+				<img src="img/bcu.png" alt="blockchain university" height="320" width="360">
+				<div class="description">Designed web application with optimized user interface for upcoming press release with mobile compatibility.Technologies Used: HTML5, CSS3, Wordpress tools</div>
+			</figure></a>
+						
+
+			<a href="http://54.69.227.225/#!/" target="_blank"><figure class="img-wrap col-3">
+				<h2>Discourse Discussion Board</h2>
+				<img src="img/discourse.png" alt="discourse discussion board" height="320" width="360">
+				<div class="description">Social platform similar to Reddit. For locational chapters to organize separate discussion boards with an additional global discussion board. Technologies Used: Javascript, Angular.js, Node.js, Express, HTML5, CSS3, Facebook API, Zurb Foundation</div>
+			</figure></a>
+
+			<a href="http://52.89.18.85/" target="_blank"><figure class="img-wrap col-3">
+				<h2>Asclepius</h2>
+				<img src="img/asclepius.png" alt="asclepius" height="320" width="360">
+				<div class="description">Application takes personal health questions (text or voice) and answers via audio with supplemental graphs/charts. Technologies Used: Javascript, HTML5, CSS3, Angular.js, HighCharts API, Wit.ai API, Speech Synthesizer API, Zurb Foundation</div>
+			</figure></a>
+	
+			
+
+			<a href="http://52.89.194.120/" target="_blank"><figure class="img-wrap col-3">
+				<h2>GroupChat</h2>
+				<img src="img/chat.png" alt="groupchat" height="320" width="360">
+				<div class="description">Web Application group chat with multiple rooms harnessing sockets. Technologies Used: Javascript, Socket.io, HTML5, CSS3, Angular.js, Bootstrap</div>
+			</figure></a>
+
+		</div>
+
+	</div>
+	<!-- <footer id="footer">Made with love Alexandra</footer> -->
+</body>
+</html>
